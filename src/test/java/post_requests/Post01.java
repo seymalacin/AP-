@@ -33,6 +33,14 @@ public class Post01 extends JsonPlaceHolderBaseUrl {
                                     }
      */
 
+    /*
+    De-Serialization: Json datanın Java objesıne cevrılmesı
+    Serilazation: Java objesinin, Json dataya cevrilmesi
+    2 türlü De-Serialization yapacagız:
+          i) Gson: Google tarafından uretilmiştir
+          ii) Object Mapper : En populerı
+     */
+
     @Test
     public void post01() {
         //Set the URL
@@ -53,7 +61,7 @@ public class Post01 extends JsonPlaceHolderBaseUrl {
         Map<String, Object> actualData = response.as(HashMap.class);//DE-Serialization ==> Json -> Java
         System.out.println("actualData = " + actualData);
 
-        assertEquals(201, response.statusCode());
+        assertEquals(201, response.statusCode());//Status Code
         assertEquals(expectedData.get("completed"), actualData.get("completed"));
         assertEquals(expectedData.get("title"), actualData.get("title"));
         assertEquals(expectedData.get("userId"), actualData.get("userId"));
