@@ -3,7 +3,7 @@ package get_requests;
 import base_urls.HerOkuAppBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
-
+import test_data.HerOkuAppTestData;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -71,7 +71,6 @@ public class Get09 extends HerOkuAppBaseUrl {
     }
 
 
-
     @Test//Dinamik Yöntem
     public void get09b(){
         //Set the URL
@@ -81,7 +80,7 @@ public class Get09 extends HerOkuAppBaseUrl {
         HerOkuAppTestData obj1 = new HerOkuAppTestData();
         Map<String, String> bookingdatesMap = obj1.bookingdatesMapMethod("2018-01-01","2019-01-01");
 
-        Map<String, Object> expectedData = obj1.expectedDataMethod("John","Smith",111,true,bookingdatesMap,"Dinner");
+        Map<String, Object> expectedData = obj1.expectedDataMethod("John","Smith",111,true,bookingdatesMap,"Breakfast");
         System.out.println("expectedData = " + expectedData);
 
         //Send the request and get the response
