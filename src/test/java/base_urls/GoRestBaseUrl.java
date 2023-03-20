@@ -5,10 +5,9 @@ import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
 public class GoRestBaseUrl {
-
     protected RequestSpecification spec;
 
-    @Before
+    @Before//Her test method'undan once calisir.
     public void setUp() {
         spec = new RequestSpecBuilder().setBaseUri("https://gorest.co.in/public/v1").build();
     }
