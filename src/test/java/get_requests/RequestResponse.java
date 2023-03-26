@@ -10,6 +10,8 @@ import static io.restassured.RestAssured.given;
 public class RequestResponse {
 
     /**
+     *         ADIMLAR
+
      *1) Postman manuel API testi için kullanılır
      *2)API otomasynu için Rest Assured Library
      *3) Otomasyon kodlarının yazımı için şu adımları izliyoruz
