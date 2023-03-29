@@ -31,9 +31,13 @@ public class Get04 extends JsonPlaceHolderBaseUrl {
 
     @Test
     public void get04() {
+
+        // [] consolda bu varsa lıst demek
+
         //Set the URL
         // String url = "https://jsonplaceholder.typicode.com/todos";
         spec.pathParam("first", "todos");
+        // first degisken istedimiz ısmı verebılırız
 
         //Set the expected data
 

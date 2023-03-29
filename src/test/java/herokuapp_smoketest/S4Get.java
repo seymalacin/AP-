@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 
 
-public class S5Get extends HerOkuAppBaseUrl {
+public class S4Get extends HerOkuAppBaseUrl {
     /*
    Given
        https://restful-booker.herokuapp.com/booking/:id

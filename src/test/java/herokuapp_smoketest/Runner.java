@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
         S1Post.class,
         S2Put.class,
         S3Delete.class,
-        S5Get.class
+        S4Get.class
 
 })
 

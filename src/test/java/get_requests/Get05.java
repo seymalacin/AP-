@@ -21,6 +21,7 @@ public class Get05 extends HerOkuAppBaseUrl {
      */
 
     //https://restful-booker.herokuapp.com/booking?firstname=Sally&lastname=Brown
+    // bunu eklicez ek olarak kodda
 
     @Test
     public void get05() {

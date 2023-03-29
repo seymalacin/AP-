@@ -18,7 +18,7 @@ public class Get03 {
         Then
             HTTP Status Code should be 200
 		And
-		    Response format should be “application/json”
+		    Response format should be “application/json”  contentType()
 		And
 		    “title” is “et itaque necessitatibus maxime molestiae qui quas velit”,
 		And
@@ -48,6 +48,8 @@ public class Get03 {
                 body("completed", equalTo(false)).//"completed": false
                 body("userId", equalTo(2));//"userId": 2
 
+        // body(). --datalar
+        // equaTo() -- esıtmı ona bakıyo
 
         //2. Yol:
         response.
@@ -57,6 +59,7 @@ public class Get03 {
                 body("title", equalTo("et itaque necessitatibus maxime molestiae qui quas velit"),
                         "completed", equalTo(false),
                         "userId", equalTo(2));
+
         //Tek body() methodu içerisinde çoklu assertion yaparak soft assertion oluşturabilirsiniz. Fail durumunda body() içerisinde Java çalışmayı durdurmaz.
         //Çoklu body() methodu ile assertion yapıldığında fail durumunda Java bir sonraki body() methodu öncesi çaılışmayı durdurur.
 

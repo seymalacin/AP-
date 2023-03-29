@@ -11,6 +11,7 @@ public class RequestResponse {
 
     /**
      *         ADIMLAR
+     *
 
      *1) Postman manuel API testi için kullanılır
      *2)API otomasynu için Rest Assured Library
@@ -57,7 +58,7 @@ public class RequestResponse {
         System.out.println("Server = " + response.header("Server"));
 
         //Headers nasıl yazdırılır ?
-        System.out.println(response.headers());
+        System.out.println(response.headers());// hepsini yazdirir headers()
 
         // Time nasıl yazdırılır?
         System.out.println("Get Time = " + response.getTime());
