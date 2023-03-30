@@ -56,6 +56,7 @@ public class Get08 extends JsonPlaceHolderBaseUrl {
         Map<String,Object> actualData = response.as(HashMap.class);//De-Serialization
         System.out.println("actualData = " + actualData);
 
+        // 2 map karsılastırması
         assertEquals(200, response.statusCode());
         assertEquals(expectedData.get("completed"), actualData.get("completed"));
         assertEquals(expectedData.get("title"), actualData.get("title"));

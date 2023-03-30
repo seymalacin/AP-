@@ -28,3 +28,12 @@ public class JsonPlaceHolderTestData {
 
     }
 }
+
+/*
+    Put01
+ Map<String, Object> expectedData = new HashMap<>();
+        expectedData.put("userId", 21);
+        expectedData.put("title", "Wash the dishes");
+        expectedData.put("completed", false);
+
+ */

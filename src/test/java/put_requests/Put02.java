@@ -13,8 +13,8 @@ import static org.junit.Assert.assertEquals;
 public class Put02 extends DummyRestApiBaseUrl {
         /*
         URL: https://dummy.restapiexample.com/api/v1/update/21
-       HTTP Request Method: PUT Request
-       Request body: {
+        HTTP Request Method: PUT Request
+        Request body: {
                         "employee_name": "Ali Can",
                         "employee_salary": 111111,
                         "employee_age": 23,
