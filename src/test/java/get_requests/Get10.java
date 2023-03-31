@@ -38,6 +38,7 @@ public class Get10 extends GoRestBaseUrl {
         spec.pathParams("first", "users","second",128529);
 
         //Set the expected data
+        //  GoRestTestData -> test datada olusturdumuz class
         GoRestTestData obj = new GoRestTestData();
         Map<String, String> dataMap = obj.dataMapMethod("Anamika Joshi","anamika_joshi@corkery-ritchie.info","male","active");
 

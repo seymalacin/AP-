@@ -39,3 +39,21 @@ public class BookingResponsePojo {
                 '}';
     }
 }
+
+/*
+             Post04
+
+   "bookingid": 16,
+                                 "booking" :{
+                                       "firstname": "Ali",
+                                       "lastname": "Can",
+                                       "totalprice": 999,
+                                       "depositpaid": true,
+                                       "bookingdates": {
+                                           "checkin": "2021-09-21",
+                                           "checkout": "2021-12-21"
+                                       },
+                                       "additionalneeds": "Breakfast"
+                                    }
+                                 }
+ */

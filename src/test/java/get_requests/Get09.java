@@ -70,6 +70,9 @@ public class Get09 extends HerOkuAppBaseUrl {
 
     }
 
+    // WET -> Write Everything Twice
+    // DRY -> Dont Repeat Yourself
+
 
     @Test//Dinamik Yöntem
     public void get09b(){

@@ -46,6 +46,7 @@ public class Get11 extends GoRestBaseUrl {
         Response response = given().spec(spec).get("{first}");
         response.prettyPrint();
 
+        // given(). ile baslıyoruz then(). ile devam edıyoruz
 //        iv)  Do assertion
         response.
                 then().

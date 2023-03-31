@@ -40,3 +40,30 @@ public class BookingDatesPojo {
                 '}';
     }
 }
+
+
+
+/*
+ Yukardakı ıslemler;
+ -Boa constructor
+ -dolu constructor
+ -gettr settr
+ -toostriın
+
+ sag tıkla cenerayttan yapılıyo
+
+
+
+ */
+
+/*
+           Post04
+ {
+
+               "bookingdates": {
+                   "checkin": "2021-09-21",
+                   "checkout": "2021-12-21"
+                },
+
+            }
+ */

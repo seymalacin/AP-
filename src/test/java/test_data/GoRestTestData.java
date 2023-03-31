@@ -22,3 +22,15 @@ public class GoRestTestData {
         return expectedData;
     }
 }
+/*
+         Get10
+ {
+    "meta": null,
+    "data": {
+        "id": 128529,
+        "name": "Anamika Joshi",
+        "email": "anamika_joshi@corkery-ritchie.info",
+        "gender": "male",
+        "status": "active"
+    }
+ */
