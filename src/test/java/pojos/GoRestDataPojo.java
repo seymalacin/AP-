@@ -63,6 +63,7 @@ public class GoRestDataPojo {
 }
 
 /*
+      GET13
   "meta": null,
         "data": {
             "id": 247158,

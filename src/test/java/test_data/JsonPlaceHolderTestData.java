@@ -30,10 +30,11 @@ public class JsonPlaceHolderTestData {
 }
 
 /*
-    Put01
- Map<String, Object> expectedData = new HashMap<>();
-        expectedData.put("userId", 21);
-        expectedData.put("title", "Wash the dishes");
-        expectedData.put("completed", false);
-
+            get14-pojo
+    {
+									    "userId": 10,
+									    "id": 198,
+									    "title": "quis eius est sint explicabo",
+									    "completed": true
+									  }
  */

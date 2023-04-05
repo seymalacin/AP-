@@ -11,6 +11,9 @@ import static org.junit.Assert.assertEquals;
 
 public class Get14ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
 
+
+    // Get14ObjectMapper_Map nin pojo classa cevrilmesi
+
       /*
         Given
 	        https://jsonplaceholder.typicode.com/todos/198
